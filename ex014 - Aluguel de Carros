@@ -1,0 +1,7 @@
+dia = int(input('Quantos dias alugados: '))
+km = float(input('Quanto Km rodados: '))
+#km = 0.15
+#dia = 60
+pago = (dia*60 + km*0.15)
+
+print("O total a pagar pela diárias é de R$ {:.2f}".format(pago))
