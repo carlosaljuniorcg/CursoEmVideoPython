@@ -7,4 +7,4 @@ print('Analisando o seu valor {}, temos seu antecessor {} e seu sucessor {}.'. f
 #Dobro, triplo e raiz quadrada
 
 n = int(input('Digite um valor: '))
-print('O valor é {}, o dobro do valor é {} e a sua raiz quadrada é {}'.format(n, (n*2), (n**2)))
+print('O valor é {}, o dobro do valor é {} e a sua raiz quadrada é {:.2f}'.format(n, (n*2), (n**(1/2))))
