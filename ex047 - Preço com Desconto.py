@@ -16,9 +16,17 @@ elif opcao == 2:
 elif opcao == 3:
     total = valor
     parcela = total / 2
-    print('Sua compra parcelada em 2x de R${:.2f}.'.format(parcela))
+    print('Sua compra parcelada em 2x de R${:.2f} SEM JUROS.'.format(parcela))
     print('Seu compra de R${:.2f} vai custar R${:.2f} no final.'.format(valor, total))
 elif opcao == 4:
-    print('O valor de sua compra com o acréscimo de 20% é de R${:.2f}.'.format(valor+(valor*20/100)))
+    total = valor+(valor*20/100)
+    totparc = int(input('Quantas parcelas? '))
+    parcela = total / totparc
+    print('Sua comprar será parcelada em {}x de R${:.2f} COM JUROS'.format(totparc, parcela))
+    print('Sua com de R${:.2f} vai custar R${:.2f} no final.'.format(valor, total))
+
+else:
+    print('Opção inválida. Tente novamente.')
+
 
 
