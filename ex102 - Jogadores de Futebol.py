@@ -1,7 +1,4 @@
 #Programa para gerenciar jogadores de futebol
-import enum
-
-
 jogador = dict()
 partidas = list()
 jogador['nome'] = str(input('Nome do Jogador: '))

@@ -5,6 +5,7 @@ while True:
     pessoa.clear()
     pessoa['nome'] = str(input('nome: '))
     while True:
+        
         pessoa['sexo'] = str(input('Sexo: [M/F]')).upper()[0]
         if pessoa['sexo'] in 'MF':
             break
@@ -32,7 +33,7 @@ print('D) Lista das pessoas que estão acima da média: ')
 for p in galera:
     if p['idade'] >= média:
         print('   ', end='')
-        for k, v in p.itens():
+        for k, v in p.items():
             print(f'{k} = {v}; ', end='')
         print()
 print('<< ENCERRADO >>')
