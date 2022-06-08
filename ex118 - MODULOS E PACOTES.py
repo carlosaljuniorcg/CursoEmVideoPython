@@ -2,7 +2,7 @@
 import uteis
 
 num = int(input('Digite o valor: '))
-fat = uteis.fatorial(num)
+fat = uteis.fatorial(num)#Usando um mú
 print(f'O fatorial de {num} é {fat}.')
 print(f'O dobro de {num} é {uteis.dobro(num)}.')
 print(f'O triplo de {num} é {uteis.triplo(num)}.')

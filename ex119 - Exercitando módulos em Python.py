@@ -1,3 +1,4 @@
+#Usando módulo da mesma pasta
 import moedas
 
 p = float(input('Digite o preço: R$'))
