@@ -15,4 +15,4 @@ def leiaInt(msg):
 
 
 n = leiaInt('Digite um número: ')
-print('Você acabou de digitar o número {n}.')
+print(f'Você digitou o número {n}.')
