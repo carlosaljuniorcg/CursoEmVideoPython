@@ -2,7 +2,9 @@
 from Módulos import moedas 
 from Módulos import dado
 
-p = float(input('Digite o preço: R$'))
+
+p = dado.leiaDinheiro('Digite o preço: R$')
+#p = float(input('Digite o preço: R$'))
 #print(f'A metade de {moedas.moedas(p)} é {moedas.metade(p, True)}')
 #print(f'O dobro de {moedas.moedas(p)} é {moedas.dobro(p, True)}')
 #print(f'Com o aumento de 10% temos {moedas.aumentar(p, 10, True)}')
