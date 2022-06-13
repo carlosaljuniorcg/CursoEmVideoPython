@@ -1,6 +1,4 @@
-Carlos
-Pedro
-João
-Stella
-Risia
-Keylla
+Carlos; 41
+Stella; 33
+Risia; 45
+Keylla Raissa; 22
