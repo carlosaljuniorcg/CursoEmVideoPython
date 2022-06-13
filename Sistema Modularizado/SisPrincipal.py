@@ -1,5 +1,24 @@
-from SisDef import cabeçalho
+from SisDef import *
+from SisArquivos import *
+from time import sleep
 
-cabeçalho('SISTEMA CARLOS v.1.0') 
-menu(['opc01', 'opc02', 'opc03'])
+arq = 'cursoemvideo.txt'
+ 
+if not arquivoExiste(arq):
+    criarArqvuivo(arq)
+    
+
+while True: 
+    resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do Sistema'])
+    if resposta == 1:
+        #Opção de listar o conteúdo de um arquivo!
+        lerArquivo(arq)
+    elif resposta == 2:
+        cabeçalho('Opção 2')
+    elif resposta == 3:
+        cabeçalho    ('Saindo do sistema... Até logo!')
+        break
+    else:
+        print('\033[31mERRO! DIgite uma opção inválida.\033[m')
+    sleep(2)
 
