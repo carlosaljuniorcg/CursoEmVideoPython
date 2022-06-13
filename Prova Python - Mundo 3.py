@@ -1,6 +1,5 @@
-num = [6, 2, 1, 4, 3]
-num.sort(reverse=True)
-print(num)
+indice = 6
+soma = 0
+k = 0
 
-letras = ('J', 'X', 'M', 'O', 'A', 'K')
-print(letras.index('A'))
+for k <= indice:
